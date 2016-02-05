@@ -62,8 +62,8 @@ li{
   height: 50px;
   width:50px;
   background-color: green;
-  border: black 1px solid;
-  display: inline-block;
+  position:absolute;
+  border: solid black 1px;
 }
 
 div{
