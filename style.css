@@ -1,0 +1,75 @@
+
+main{
+  width: 500px;
+  height: 500px;
+  background-color: green;
+  position: relative;
+  border: solid 1px black;
+}
+
+
+
+footer{
+  border: solid 1px black;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 50px;
+  left: 49px;
+}
+footer + footer{
+  border: solid 1px black;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 250px;
+  left: 49px;
+}
+
+aside{
+  position: absolute;
+  border: solid 1px red;
+  height: 400px;
+  width: 100px;
+  top: 49px;
+  left: 49px;
+}
+aside + aside{
+  position: absolute;
+  border: solid 1px blue;
+  height: 400px;
+  width: 100px;
+  top: 49px;
+  left: 149px;
+}
+aside + aside + aside{
+  position: absolute;
+  border: solid 1px red;
+  height: 400px;
+  width: 100px;
+  top: 49px;
+  left: 249px;
+}
+aside + aside + aside + aside{
+  position: absolute;
+  border: solid 1px blue;
+  height: 400px;
+  width: 100px;
+  top: 49px;
+  left: 349px;
+}
+li{
+  height: 50px;
+  width:50px;
+  background-color: green;
+  border: black 1px solid;
+  display: inline-block;
+}
+
+div{
+  display: inline-block;
+  float: right;
+  clear: right;
+  height: 500px;
+  width: 500px;
+}
